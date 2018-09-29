@@ -1,0 +1,51 @@
+body{
+	background: url(../imgs/login_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;	
+}
+
+.from-login{
+	width: 387px;
+	height: 280px; 
+	background: url(../imgs/form-bg.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.from-login h2{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 45px;
+}
+.from-login form{
+	margin: 0 auto;
+	width: 300px;
+	height: 200px;
+}
+.from-login form p{
+	font-weight: 700;
+	margin-top: 30px;
+}
+.from-login form p input{
+	width: 200px;
+	height: 30px;
+	margin-left: 20px;
+}
+.from-login form a{
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	border: 0px;
+	width: 80px;
+	height: 30px;
+	background-color: #337ab7;
+	color: white;
+	font-weight: 600;
+	margin-top: 40px;
+	margin-left: 45px;
+	border-radius: 5px;
+}
